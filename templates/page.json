@@ -1,10 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-      }
-    },
     "16328228880b66b365": {
       "type": "image-banner",
       "blocks": {
@@ -47,10 +42,15 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
-    "16328228880b66b365"
+    "16328228880b66b365",
+    "main"
   ]
 }
